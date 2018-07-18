@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" data-framework="javascript">
+	<head>
+        <meta charset="utf-8">
+		<meta name="author" content="Victor Akpan">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A simple todo list app (Daily)">
+
+		<title>daily</title>
+		<link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		
+		<section class="todoapp">
+			<header class="header">
+				<h1><img src="img/favicon-256.png" width="70" height="70" />aily</h1>
+				<input class="new-todo" id="new-todo" onchange="handlers.addTodo()" placeholder="What needs to be done?" autofocus>
+			</header>
+			<section class="main">
+				<input class="toggle-all" onclick="view.toggleAll();" type="checkbox">
+				<label for="toggle-all">Mark all as complete</label>
+				<ul class="todo-list">
+					
+				</ul>
+			</section>
+			<footer class="footer">
+				<span class="todo-count"></span>
+				<ul class="filters">
+					<li>
+						<a href="#/" class="all">All</a>
+					</li>
+					<li>
+						<a href="#/active" class="active">Active</a>
+					</li>
+					<li>
+						<a href="#/completed" class="completed">Completed</a>
+					</li>
+				</ul>
+				<button class="clear-completed">Clear completed</button>
+			</footer>
+		</section>
+        
+		<script src="js/index.js"></script>
+		<script src="js/localforage.min.js"></script>
+	</body>
+</html>
