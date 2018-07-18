@@ -313,7 +313,8 @@ label[for='toggle-all'] {
 
 .clear-completed,
 html .clear-completed:active {
-	float: right;
+	/*float: right;*/
+	margin-right: -320px;
 	position: relative;
 	line-height: 20px;
 	text-decoration: none;
