@@ -1,6 +1,8 @@
 # Daily
 A simple and single purpose application to store your daily task. 
 
+View App here: https://victorwealth.github.io/Daily/
+
 CREDIT: Gordon Zhu. HTML and CSS comes from Gordon's VanillaJS example.
 
 After completing Gordon's tutorial on beginner JS, I decided to apply lessons and skills learned.
