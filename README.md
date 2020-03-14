@@ -1,4 +1,4 @@
-# Daily
+# Daily - A simple todo app
 
 ## Introduction
 
