@@ -3,9 +3,7 @@
 ## Introduction
 
 >A quick, simple and easy way to create todo items. Created with HTML, CSS and JS. Todo items are stored in browser's localStorage.
-Checkbox for selecting "Done" items buggy.
-
-CREDIT: @gordonmzhu
+So it keeps track of your list (on your device) even when your browser is closed.
 
 ## Code Samples
 
@@ -21,6 +19,9 @@ CREDIT: @gordonmzhu
 
             newTodo.value = '';
             view.displayTodos();
+
+## Preview
+![alt text](https://github.com/victorwealth/Daily/blob/master/daily-preview.png)
         
 
 ## How to use
@@ -32,3 +33,6 @@ CREDIT: @gordonmzhu
 
 ## Contributors welcome
 > Though project was intended for practice, contributors are welcome. Please feel free.
+
+## Credit
+>@gordonmzhu for a great intro to JS
